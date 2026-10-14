@@ -1,0 +1,30 @@
+# 의존성 · 빌드 결과물 (GitHub Actions에서 새로 설치·빌드)
+node_modules/
+dist/
+*.tsbuildinfo
+
+# 환경 변수 · API 키 · 로컬 설정
+.env
+.env.*
+*.local
+.mcp.json
+.claude/
+
+# Python 가상환경 · 캐시 (외부 도구용)
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 로그 · 임시 파일
+*.log
+logs/
+tmp/
+*.tmp
+public/__preview.html
+
+# OS · 에디터
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
